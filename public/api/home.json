@@ -1,0 +1,55 @@
+{
+  "title": "My Blog App",
+  "description": "This is home page",
+  "blocks": [
+    {
+      "id": "1",
+      "type": "HeroBlock",
+      "data": {
+        "title": "Blog app, powered by Vue.js",
+        "backgroundImage": "https://picsum.photos/id/33/1080/720",
+        "content": "<p>Welcome to our Vue.js-powered blog app! </p><p>Discover insightful articles and stay updated with the latest trends.</p>",
+        "fullscreen": true
+      }
+    },
+    {
+      "id": "2",
+      "type": "CtaBlock",
+      "data": {
+        "title": "Blog Posts",
+        "content": "<p>Some relevant posts</p>",
+        "url": "/posts",
+        "readMoreLabel": "See all posts"
+      }
+    },
+    {
+      "id": "3",
+      "type": "CtaBlock",
+      "data": {
+        "title": "About Us",
+        "content": "<p>Something about us</p>",
+        "url": "/about",
+        "readMoreLabel": "More details"
+      }
+    },
+    {
+      "id": "4",
+      "type": "ContentBlock",
+      "data": {
+        "content": "<h2>Just some random meme on the internet...</h2><img src='https://img.devrant.com/devrant/rant/r_1415576_mAuNT.jpg' alt='frontend dev' width='800' height='600'>",
+        "containerClass": "container",
+        "containerStyle": "text-align: center;padding-top:64px;padding-bottom:64px;"
+      }
+    },
+    {
+      "id": "5",
+      "type": "CtaBlock",
+      "data": {
+        "title": "Contact Us",
+        "content": "<p>Have some obstacle while learning the framework? Submit a form to tell us!</p>",
+        "url": "/contact",
+        "readMoreLabel": "I've some question"
+      }
+    }
+  ]
+}

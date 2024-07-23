@@ -1,0 +1,59 @@
+html {
+  font-size: 16px;
+  font-family: 'Segoe UI', system-ui, -apple-system, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.breadcrumb {
+  background-color: teal;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+.breadcrumb a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.breadcrumb a:not(.router-link-active):hover {
+  text-decoration: underline;
+}
+
+.breadcrumb a.router-link-active {
+  cursor: default;
+  color: yellow;
+}
+
+#app {
+  padding-bottom: 29px;
+}

@@ -1,0 +1,23 @@
+{
+  "title": "About Us",
+  "description": "About us",
+  "blocks": [
+    {
+      "id": "1",
+      "type": "HeroBlock",
+      "data": {
+        "title": "About Us",
+        "backgroundImage": "https://picsum.photos/id/122/1080/720",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quas ut id optio corrupti, omnis, deleniti ducimus, tempora eligendi dolores dolorem repellendus explicabo voluptatibus numquam pariatur repellat laboriosam minima velit!</p>"
+      }
+    },
+    {
+      "id": "2",
+      "type": "ContentBlock",
+      "data": {
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quas ut id optio corrupti, omnis, deleniti ducimus, tempora eligendi dolores dolorem repellendus explicabo voluptatibus numquam pariatur repellat laboriosam minima velit!</p>",
+        "containerClass": "container"
+      }
+    }
+  ]
+}

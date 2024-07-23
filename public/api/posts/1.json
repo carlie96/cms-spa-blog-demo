@@ -1,0 +1,25 @@
+{
+  "title": "Exploring Vue.js 3: New Features and Improvements",
+  "description": "Vue.js 3 brings a host of new features and improvements. Learn about the Composition API, enhanced TypeScript support, and more.",
+  "collection": "/posts",
+  "collectionLabel": "Posts",
+  "blocks": [
+    {
+      "id": "1",
+      "type": "HeroBlock",
+      "data": {
+        "title": "Exploring Vue.js 3: New Features and Improvements",
+        "backgroundImage": "https://picsum.photos/id/125/1080/720",
+        "content": "Vue.js 3 brings a host of new features and improvements. Learn about the Composition API, enhanced TypeScript support, and more."
+      }
+    },
+    {
+      "id": "2",
+      "type": "ContentBlock",
+      "data": {
+        "content": "<p>Vue 3, the latest iteration of the popular JavaScript framework, comes with several exciting features and improvements that enhance its capabilities for building modern web applications. In this technical blog post, we'll delve into some of the key features introduced in Vue 3 and provide examples to illustrate their usage.</p><ol><li>Composition API - Vue 3 introduces the Composition API, which offers a new way to organize and reuse logic across components.</li><li>Teleport - The new Teleport feature in Vue 3 allows developers to render a component's children at a different place in the document hierarchy.</li><li>Fragments - Vue 3 introduces support for Fragments, which enable components to return multiple root nodes without the need for an extra wrapping element.</li><li>Better TypeScript Support - Vue 3 offers enhanced support for TypeScript, providing better type inference and more robust type checking capabilities.</li><li>Smaller Bundle Size and Better Performance - Vue 3 has been optimized for improved performance and reduced bundle size, thanks to its re-written virtual DOM implementation. While the benefits of performance optimizations may not be directly demonstrated in a code example, developers can expect faster rendering and better overall application performance in Vue 3.</li></ol><p>In conclusion, Vue 3 introduces a host of compelling new features and improvements that enhance its capabilities for building modern web applications. From the Composition API to Teleport, Fragments, improved TypeScript support, and performance optimizations, Vue 3 offers a powerful set of tools and capabilities for developers. The examples provided here illustrate the practical usage of these features, showcasing their utility and flexibility in real-world Vue 3 applications.</p>",
+        "containerClass": "container"
+      }
+    }
+  ]
+}
